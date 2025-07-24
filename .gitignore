@@ -1,0 +1,5 @@
+# Never check anything into secret
+secret
+.dockerimg
+incoming
+archive

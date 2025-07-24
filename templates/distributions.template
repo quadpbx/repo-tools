@@ -1,0 +1,15 @@
+Origin: QuadPBX
+Label: QuadPBX
+Suite: stable
+Codename: quadpbx-__DISTRO__
+Version: 3.0
+Architectures: amd64 source
+Components: main
+UDebComponents: main
+Description: QuadPBX __DISTRO__ Repository
+SignWith: __SIGNINGKEY__
+DebOverride: override
+UDebOverride: override
+DscOverride: srcoverride
+
+

@@ -1,0 +1,2 @@
+# Pubkey: http://repo.quadpbx.com/quadpbx.gpg.key
+deb http://repo.quadpbx.com/debian/ quadpbx-__DISTRO__ main

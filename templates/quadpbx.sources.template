@@ -1,0 +1,8 @@
+Types: deb
+URIs: http://repo.quadpbx.com/debian/
+Suites: quadpbx-__DISTRO__
+Allow-Insecure: yes
+Allow-Weak: yes
+Allow-Downgrate-To-Insecure: yes
+Components: main
+PubkeyUrl: http://repo.quadpbx.com/quadpbx.gpg.key
