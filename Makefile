@@ -27,7 +27,7 @@ shell: .dockerimg
 
 .PHONY: repo
 repo: .dockerimg $(WEBROOTPUBKEY) $(WEBPUBLIC)/conf/distributions $(WEBPUBLIC)/quadpbx.sources $(WEBPUBLIC)/quadpbx-$(DISTRO).apt.source $(WEBPUBLIC)/quadpbx.apt.source $(WEBPUBLIC)/conf/override | $(MKDIRS)
-	DEBS="$(wildcard $(INCOMING)/*deb)"; if [ "$$DEBS" ]; then \
+	@DEBS="$(wildcard $(INCOMING)/*deb)"; if [ "$$DEBS" ]; then \
 		echo "Processing '$$DEBS'"; \
 		docker run -it -w /depot $(DPARAMS) ./import.sh; \
 	else \
